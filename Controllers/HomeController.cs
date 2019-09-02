@@ -5,13 +5,25 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using dotnetMVC.Models;
+using Microsoft.Extensions.Logging;
 
 namespace dotnetMVC.Controllers
 {
     public class HomeController : Controller
     {
+
+        private static int count=0;
+        private ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
+
         public IActionResult Index()
         {
+            count++;
+             _logger.LogInformation($"the count is {count}");
             return View();
         }
 

@@ -11512,11 +11512,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\dotnetMVC\\dotnetMVC.csproj",
+      "projectUniqueName": "e:\\dotnet\\dotnetMVC\\dotnetMVC.csproj",
       "projectName": "dotnetMVC",
-      "projectPath": "E:\\dotnetMVC\\dotnetMVC.csproj",
+      "projectPath": "e:\\dotnet\\dotnetMVC\\dotnetMVC.csproj",
       "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "E:\\dotnetMVC\\obj\\",
+      "outputPath": "e:\\dotnet\\dotnetMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
